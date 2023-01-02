@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+    integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+    crossorigin=""></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1>La Estación Espacial Internacional con Rufi</h1>
+    <p>
+        latitude: <span id="lat"></span>°<br>
+        longitude: <span id="lon"></span>°
+
+    
+    </p>
+
+    <input type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="therainsofcastamere.mp3"></audio>
+
+    <div id="ISSMap"></div>
+
+    <script src="codigo.js"></script>
+    <!-- <script src="prueba.js"></script> -->
+</body>
+</html>
